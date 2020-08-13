@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* LAYOUT */
+/* ----------------------------------------- */
+@page { /* Printing */
+	margin: 0;
+	border: none;
+	size: A4 portrait;
+	padding: 0;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+body {
+	font-family: 'Montserrat', 'Roboto', 'Open Sans', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	font-size:11px;
+	line-height: 17px;
+	color: #000;
+	-webkit-print-color-adjust: exact;
+}
+
+/* BLOCKS */
+/* ----------------------------------------- */
+h1  {
+	font-size:42px;
+	color: #fff;
+}
+h2 {
+	line-height: 1px;
+	font-size:17px;
+	color: #3A6D8C;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h3 {
+	margin: 0;
+	font-size: 13px;
+	color:#fff;
+}
+em {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	color: #777777;
+	font-size: 12px;
+	margin: 0;
+}
+a, a:visited, a:active {
+	color: #b1b1b1;
+	text-decoration: none;
+}
+a:hover {
+	color: #d1d1d1;
+	text-decoration: underline;
+}
+.colored {
+	color: #ab40d9;
+}
+.courses {
+	color: #f1f1f1;
+}
+/* CONTENT */
+/* ----------------------------------------- */
+#wrapper {
+	width:828px;
+	height: 1215px;
+	margin:0 auto;
+	background-color: #101010;
+	color: white;
+	padding: 20px;
+}
+.row {
+	width: 100%;
+	display: flex;
+}
+.column-1-2 {
+	flex: 50%;
+	margin: 0px 5px 5px 0px;
+}
+.column-1-3 {
+	flex: 35%;
+	margin: 0px 0px 5px 0px;
+}
+.column-2-3 {
+	flex: 65%;
+	margin: 0px 0px 5px 0px;
+}
+.column-1-4 {
+	flex: 25%;
+	margin: 0px 0px 5px 0px;
+}
+.column-3-4 {
+	flex: 75%;
+	margin: 0px 0px 5px 0px;
+}
+
+/* TOP INFORMATION */
+/* ----------------------------------------- */
+
+.top {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.top .portrait {
+	height: 150px;
+	margin-right: 20px;
+}
+.top .portrait img {
+	width: 150px;
+	height: 150px;
+}
+.top .info {
+	height: 145px;
+	margin-left: auto;
+	margin-right: 5px;
+}
+.top .name {
+	margin-top: 2px;
+}
+.top ul li {
+	height: 25px;
+	display: block;
+	margin-top: -2px;
+}
+.top ul li i {
+	color: #f1f1f1;
+	margin-right: 5px;
+	width: 15px;
+}
+

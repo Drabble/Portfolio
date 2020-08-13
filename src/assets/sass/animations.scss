@@ -1,0 +1,188 @@
+$animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$animation-duration: 1s;
+
+.animatable {
+  opacity: 0;
+  animation-timing-function: $animation-timing-function;
+  animation-fill-mode: both;
+  animation-duration: $animation-duration;
+
+  &.animated {
+    opacity: 1;
+  }
+
+  /* initially hide animatable objects */
+  //visibility: hidden;
+
+  /* initially pause animatable objects their animations */
+  //-webkit-animation-play-state: paused;
+  //-moz-animation-play-state: paused;
+  //-ms-animation-play-state: paused;
+  //-o-animation-play-state: paused;
+  //animation-play-state: paused;
+}
+
+// keyframes mixin
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// Keyframes
+@mixin animation($animationName, $animationTime) {
+  -webkit-animation: #{$animationName} #{$animationTime} 1;
+  -moz-animation: #{$animationName} #{$animationTime} 1;
+  animation: #{$animationName} #{$animationTime} 1;
+}
+
+@include keyframes(fadeInDown) {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@include keyframes(fadeIn) {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@include keyframes(bounceInLeft) {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+  }
+  60% {
+    -webkit-transform: translateX(20px);
+  }
+
+  80% {
+    -webkit-transform: translateX(-5px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@include keyframes(bounceInRight) {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+  }
+  60% {
+    -webkit-transform: translateX(-20px);
+  }
+  80% {
+    -webkit-transform: translateX(5px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+@include keyframes(fadeInUp) {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@include keyframes(bounceIn) {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+  }
+
+  70% {
+    -webkit-transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+@include keyframes(moveUp) {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@include keyframes(fadeBgColor) {
+  0% {
+    background: none;
+  }
+  70% {
+    background: none;
+  }
+  100% {
+    background: #464646;
+  }
+}
+
+.animationDelay {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.animationDelayMed {
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+.animationDelayLong {
+  animation-delay: 1.6s;
+  -webkit-animation-delay: 1.6s;
+}
+
+.animated.fadeBgColor {
+  @include animation(fadeBgColor, 1s);
+}
+.animated.bounceIn {
+  @include animation(bounceIn, 1s);
+}
+.animated.bounceInRight {
+  @include animation(bounceInRight, 1s);
+}
+.animated.bounceInLeft {
+  @include animation(bounceInLeft, 1s);
+}
+.animated.fadeIn {
+  @include animation(fadeIn, 1s);
+}
+.animated.fadeInDown {
+  @include animation(fadeInDown, 1s);
+}
+.animated.fadeInUp {
+  @include animation(fadeInUp, 1s);
+}
+.animated.moveUp {
+  @include animation(moveUp, 1s);
+}
