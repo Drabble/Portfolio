@@ -6,6 +6,7 @@ function resolveSrc(_path) {
 }
 // vue.config.js
 module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/Portfolio/" : "/",
   lintOnSave: true,
 
   configureWebpack: {
