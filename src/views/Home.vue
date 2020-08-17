@@ -139,7 +139,7 @@
           class="education-item"
           data-aos="zoom-in-right"
         >
-          <img src="/images/avalia.png" />
+          <img src="images/avalia.png" />
           <div class="education-item-data">
             <h4>Software engineer</h4>
             <p>Avalia</p>
@@ -153,7 +153,7 @@
           class="education-item"
           data-aos="zoom-in-right"
         >
-          <img src="/images/iict.png" />
+          <img src="images/iict.png" />
           <div class="education-item-data">
             <h4>Software engineer</h4>
             <p>IICT Institute HEIG-VD</p>
@@ -167,7 +167,7 @@
           class="education-item"
           data-aos="zoom-in-right"
         >
-          <img src="/images/yadlo.png" />
+          <img src="images/yadlo.png" />
           <div class="education-item-data">
             <h4>Web developer & IT</h4>
             <p>Yadlo</p>
@@ -181,7 +181,7 @@
           class="education-item"
           data-aos="zoom-in-right"
         >
-          <img src="/images/kudelski.png" />
+          <img src="images/kudelski.png" />
           <div class="education-item-data">
             <h4>Apprentice</h4>
             <p>Kudelski Group</p>
@@ -201,7 +201,7 @@
           class="education-item"
           data-aos="zoom-in-left"
         >
-          <img src="/images/mse.png" />
+          <img src="images/mse.png" />
           <div class="education-item-data">
             <h4>Master's degree in software engineering</h4>
             <p>HES-SO Haute école spécialisée de Suisse occidentale</p>
@@ -215,7 +215,7 @@
           class="education-item"
           data-aos="zoom-in-left"
         >
-          <img src="/images/heig-vd.png" />
+          <img src="images/heig-vd.png" />
           <div class="education-item-data">
             <h4>Bachelor's degree in software engineering</h4>
             <p>HEIG-VD</p>
@@ -229,7 +229,7 @@
           class="education-item"
           data-aos="zoom-in-left"
         >
-          <img src="/images/kudelski.png" />
+          <img src="images/kudelski.png" />
           <div class="education-item-data">
             <h4>Federal VET Diploma in computer science</h4>
             <p>Kudelski Group</p>
@@ -243,7 +243,7 @@
           class="education-item"
           data-aos="zoom-in-left"
         >
-          <img src="/images/epsic.png" />
+          <img src="images/epsic.png" />
           <div class="education-item-data">
             <h4>Federal Vocational Baccalaureate</h4>
             <p>EPSIC</p>

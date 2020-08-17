@@ -25,21 +25,21 @@
 
           
         <audio class="item" controls>
-          <source src="/projects/AEmusic/Gen1.m4a" type="audio/mpeg" />
+          <source src="projects/AEmusic/Gen1.m4a" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <audio class="item" controls>
-          <source src="/projects/AEmusic/Gen2.m4a" type="audio/mpeg" />
+          <source src="projects/AEmusic/Gen2.m4a" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <audio class="item" controls>
-          <source src="/projects/AEmusic/Gen3.m4a" type="audio/mpeg" />
+          <source src="projects/AEmusic/Gen3.m4a" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </p>
       <div class="columns">
-        <img class="item" src="/projects/AEmusic/1.png" />
-        <img class="item" src="/projects/AEmusic/2.png" />
+        <img class="item" src="projects/AEmusic/1.png" />
+        <img class="item" src="projects/AEmusic/2.png" />
       </div>
     </div>
 
@@ -55,30 +55,30 @@
         >Github</a>
       </p>
       <div class="columns">
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/1.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/2.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/3.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/4.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/5.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/6.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/7.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/8.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/9.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/10.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/11.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/12.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/13.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/14.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/15.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/16.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/17.jpg" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/18.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/19.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/20.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/21.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/22.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/23.png" />
-        <img class="item" src="/projects/TwitterSentimentAnalysisAndCryptocurrencies/24.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/1.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/2.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/3.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/4.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/5.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/6.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/7.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/8.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/9.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/10.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/11.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/12.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/13.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/14.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/15.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/16.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/17.jpg" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/18.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/19.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/20.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/21.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/22.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/23.png" />
+        <img class="item" src="projects/TwitterSentimentAnalysisAndCryptocurrencies/24.png" />
       </div>
     </div>
 
