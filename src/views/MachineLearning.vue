@@ -1,6 +1,34 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Predicting cryptocurrencies price using LSTM (2020)</h3>
+      <p>
+        Trying to predict a cryptocurrencies' price using historical data from the Binance API and a LSTM network with Keras and TensorFlow.
+        You can predict any cryptocurrency available on the Binance API.
+        <a
+          href="https://github.com/Drabble/CryptoPredictions"
+        >Github</a><br/>
+      </p>
+      <div class="columns">
+        <img class="item" src="projects/CryptoPrediction/1.jpeg" />
+        <img class="item" src="projects/CryptoPrediction/2.png" />
+        <img class="item" src="projects/CryptoPrediction/3.png" />
+        <img class="item" src="projects/CryptoPrediction/4.png" />
+        <img class="item" src="projects/CryptoPrediction/5.png" />
+        <img class="item" src="projects/CryptoPrediction/6.png" />
+        <img class="item" src="projects/CryptoPrediction/7.png" />
+        <img class="item" src="projects/CryptoPrediction/8.png" />
+        <img class="item" src="projects/CryptoPrediction/9.png" />
+        <img class="item" src="projects/CryptoPrediction/10.png" />
+        <img class="item" src="projects/CryptoPrediction/11.png" />
+        <img class="item" src="projects/CryptoPrediction/12.png" />
+        <img class="item" src="projects/CryptoPrediction/13.png" />
+        <img class="item" src="projects/CryptoPrediction/14.png" />
+        <img class="item" src="projects/CryptoPrediction/15.png" />
+        <img class="item" src="projects/CryptoPrediction/16.png" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Music generation with neural networks (2019-2020)</h3>
       <p>
         Generating music using Auto Encoder neural networks in a few steps.
@@ -98,6 +126,6 @@
 <script>
 export default {
   name: "MachineLearning",
-  components: {}
+  components: {},
 };
 </script>

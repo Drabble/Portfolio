@@ -32,6 +32,11 @@
             >
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/blockchain"
+              >Blockchain</router-link
+            >
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" to="/3d">3d</router-link>
           </li>
           <li class="nav-item">
@@ -50,7 +55,7 @@
           alt="Vue logo"
           class="logo"
           src="images/logo.png"
-          style="color: #bc9c7f; width: 40px; height: 40px;"
+          style="color: #bc9c7f; width: 40px; height: 40px"
         />
       </router-link>
     </nav>

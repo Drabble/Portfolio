@@ -1,6 +1,89 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Yarr (2020)</h3>
+      <p>
+        Pirate game prototype with custom shaders, procedural terrain generation
+        and active ragdoll character controller.
+      </p>
+      <div class="columns">
+        <video class="item" controls>
+          <source src="projects/Yarr/1.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <video class="item" controls>
+          <source src="projects/Yarr/2.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <img class="item" src="projects/Yarr/2.png" />
+        <img class="item" src="projects/Yarr/3.png" />
+        <img class="item" src="projects/Yarr/4.png" />
+        <img class="item" src="projects/Yarr/5.png" />
+        <img class="item" src="projects/Yarr/6.png" />
+        <img class="item" src="projects/Yarr/7.png" />
+        <img class="item" src="projects/Yarr/8.png" />
+        <img class="item" src="projects/Yarr/9.png" />
+        <img class="item" src="projects/Yarr/10.png" />
+        <img class="item" src="projects/Yarr/11.png" />
+        <img class="item" src="projects/Yarr/12.png" />
+        <img class="item" src="projects/Yarr/13.png" />
+        <img class="item" src="projects/Yarr/14.png" />
+        <img class="item" src="projects/Yarr/15.png" />
+        <img class="item" src="projects/Yarr/16.png" />
+        <img class="item" src="projects/Yarr/17.png" />
+        <img class="item" src="projects/Yarr/18.png" />
+        <img class="item" src="projects/Yarr/19.png" />
+        <img class="item" src="projects/Yarr/20.png" />
+        <img class="item" src="projects/Yarr/21.png" />
+        <img class="item" src="projects/Yarr/22.png" />
+        <img class="item" src="projects/Yarr/23.png" />
+        <img class="item" src="projects/Yarr/24.png" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Next apartment (2020)</h3>
+      <p>
+        Accurately modelling my next apartment using Unity HDRP and Blender.
+      </p>
+      <div class="columns">
+        <img class="item" src="projects/Flat/2.png" />
+        <img class="item" src="projects/Flat/3.png" />
+        <img class="item" src="projects/Flat/4.png" />
+        <img class="item" src="projects/Flat/5.png" />
+        <img class="item" src="projects/Flat/6.png" />
+        <img class="item" src="projects/Flat/7.png" />
+        <img class="item" src="projects/Flat/8.png" />
+        <img class="item" src="projects/Flat/9.png" />
+        <img class="item" src="projects/Flat/10.png" />
+        <img class="item" src="projects/Flat/11.png" />
+        <img class="item" src="projects/Flat/12.png" />
+        <img class="item" src="projects/Flat/13.png" />
+        <img class="item" src="projects/Flat/14.png" />
+        <img class="item" src="projects/Flat/15.png" />
+        <img class="item" src="projects/Flat/16.png" />
+        <img class="item" src="projects/Flat/17.png" />
+        <img class="item" src="projects/Flat/18.png" />
+        <img class="item" src="projects/Flat/19.png" />
+        <img class="item" src="projects/Flat/20.png" />
+        <img class="item" src="projects/Flat/21.png" />
+        <img class="item" src="projects/Flat/22.png" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Nothing to hide (2020)</h3>
+      <p>A 3 days game created for Ludum Dare 47.</p>
+      <a href="https://ldjam.com/events/ludum-dare/47/nothing-to-hide"
+        >Ludum Dare entry</a
+      >
+      <a href="https://holyperceval.itch.io/nothing-to-hide">Play on Itch.io</a>
+      <div class="columns">
+        <img class="item" src="projects/NothingToHide/1.jpg" />
+        <img class="item" src="projects/NothingToHide/2.png" />
+        <img class="item" src="projects/NothingToHide/3.png" />
+        <img class="item" src="projects/NothingToHide/4.png" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Safe Travel (2020)</h3>
       <p>A new game started with friends.</p>
       <div class="columns">
@@ -68,7 +151,7 @@
         <iframe
           class="item"
           src="https://www.youtube.com/embed/mjMpRPXKvZ8"
-          style="height: 400px;"
+          style="height: 400px"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -76,7 +159,7 @@
         <iframe
           class="item"
           src="https://www.youtube.com/embed/_eEgqnoUcHk"
-          style="height: 400px;"
+          style="height: 400px"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -104,7 +187,7 @@
         Multiplayer online battle arena video game realised for my master
         thesis.
       </p>
-      <div class="columns" style="column-width: 180px;">
+      <div class="columns" style="column-width: 180px">
         <video class="item" controls>
           <source src="projects/Ramble/RambleDemo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -696,7 +779,7 @@
       </div>
     </div>
 
-    <div class="project" style="border-bottom: none;">
+    <div class="project" style="border-bottom: none">
       <h3>Fight game (2015)</h3>
       <p>3D fight game made with Unreal Engine</p>
     </div>

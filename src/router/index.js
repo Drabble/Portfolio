@@ -60,12 +60,17 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "website" */ "../views/MachineLearning.vue"),
   },
-  ,
   {
     path: "/3d",
     name: "3d",
     component: () =>
       import(/* webpackChunkName: "website" */ "../views/Models.vue"),
+  },
+  {
+    path: "/blockchain",
+    name: "blockchain",
+    component: () =>
+      import(/* webpackChunkName: "website" */ "../views/Blockchain.vue"),
   },
 ];
 
