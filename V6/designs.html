@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Antoine Drabble</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="icon" type="image/png" href="assets/img/logo.png" />
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/animatable.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="assets/js/magnific-popup.js"></script>
+		<script src="assets/js/animatable.js"></script>
+		<script src="assets/js/unveil.js"></script>
+		<script src="assets/js/particles.js"></script>
+	</head>
+	<body>	
+		<a href="#top" id="goto_top"><img src="assets/img/logo.png" data-src="assets/img/goto_top.png"/></a>
+		
+		<section id="menu">
+			<div class="content menu">
+				<a href="index.html">Home</a> 
+				<a href="games.html">Games</a> 
+				<a href="websites.html">Websites</a> 
+				<a href="softwares.html">Softwares</a> 
+				<a href="designs.html" class="active">Designs</a> 
+				<a href="diy.html">DIY</a> 
+				<a href="music.html">Music</a> 
+				<a href="photography.html">Photography</a> 
+			</div>
+		</section>
+		
+		<section id="top">
+			<div class="content top">
+				<div class="square"></div>
+				<div class="title">
+				<h1>DESIGNS</h1>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="content projects">
+				<div class="project">	
+					<h3>Wheal beer (2019)</h3>		
+					<div class="images" style="column-width: 180px;">		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/1b.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/1bn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/1w.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/1wn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/2b.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/2bn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/2w.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/2wn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/3b.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/3bn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/3w.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/3wn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/4b.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/4bn.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/4w.svg"/>		
+						<img src="assets/img/logo.png" data-src="Images/Wheal/4wn.svg"/>		
+					</div>					
+				</div>
+				<div class="project">	
+					<h3>Logo (2019)</h3>		
+					<div class="images" style="column-width: 300px;">		
+						<img src="assets/img/logo.png" data-src="Images/Logos/logos.png"/>	
+
+						<img src="assets/img/logo.png" data-src="Images/Ramble/0.png"/>						
+					</div>					
+				</div>
+				<div class="project">	
+					<h3>Logos (2017)</h3>		
+					<div class="images" style="column-width: 180px;">			
+						<img src="assets/img/logo.png" data-src="Images/Quest/1.png"/>	
+						<img src="assets/img/logo.png" data-src="Images/StarBall/1.png"/>
+						<img src="assets/img/logo.png" data-src="Images/BikeTracks/3.png"/>	
+						<img src="assets/img/logo.png" data-src="Images/PhotoshopTest/Tree.png"/>	
+						<img src="assets/img/logo.png" data-src="Images/PhotoshopTest/Infinity.png"/>		
+						<img src="assets/img/logo.png" data-src="Images/PhotoshopTest/Hexagone.png"/>		
+						<img src="assets/img/logo.png" data-src="Images/PhotoshopTest/logo.svg"/>	
+					</div>					
+				</div>
+				
+				<div class="project">	
+					<h3>Majora's Mask (2015)</h3>			
+					<div class="images" style="column-width: 500px;">		
+						<img src="assets/img/logo.png" data-src="Images/PhotoshopTest/Majora's-Mask2.png"/>	
+					</div>			
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			Made by <a href="https://github.com/drabble">Antoine Drabble</a> - 2019
+		</footer>
+	</body>
+	<script>
+		$(document).ready(function(){
+			// Hide goto top button when scrolling close to top
+			var offset = 900;
+			var duration = 300;
+			jQuery(window).scroll(function() {
+				if (jQuery(this).scrollTop() > offset) {
+					jQuery("#goto_top").fadeIn(duration);
+				} else {
+					jQuery("#goto_top").fadeOut(duration);
+				}
+			});
+			
+			// Add magnific popup library to images
+			$('.project img').magnificPopup({
+				type: 'image',
+				callbacks: {
+					elementParse: function(item) {
+						item.src = item.el.attr('data-src');
+					}
+				},
+				gallery: {
+				  enabled: true
+				}
+			});
+			
+			// Lazy load images
+			$("img").unveil(9000, function() {
+			  $(this).load(function() {
+				this.style.opacity = 1;
+			  });
+			});
+			$("iframe").unveil(9000, function() {
+			  $(this).load(function() {
+				this.style.opacity = 1;
+			  });
+			});
+			// Particles at the top
+			particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+			  console.log('callback - particles.js config loaded');
+			});
+		});
+	</script>
+</html>														

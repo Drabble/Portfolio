@@ -1,0 +1,269 @@
+body {
+	font-family: Consolas, monaco, monospace;
+	margin: 0; 
+	font-weight: 500;
+}
+h1 {
+	font-size: 3em;
+	display: block;
+	color: white;
+	font-weight: 300;
+}
+a {
+	font-weight: 700;
+	color: #373B44;
+	position: relative;	
+}
+a:hover{ 
+	opacity: 0.5;
+}
+a:active {
+	opacity: 0.7;
+}
+
+section {
+	width: 100%;
+	margin: 0;
+	max-width: 100%;
+	background-color: #436380;
+}
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img:hover { cursor: pointer; }
+img {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+} 
+figure img {
+  opacity: 1;
+} 
+iframe {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+} 
+
+/* Top */
+#top {
+	height: 48vh;
+}
+.top {
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.square {
+	width: 100px;
+	height: 200px;
+	background-color: white;
+	animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+	from,
+	49.9% {
+		opacity: 0;
+	}
+	50%,
+	to {
+		opacity: 1;
+	}
+}
+#goto_top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+
+#goto_top img{
+	width: 100px;
+	height: 100px;
+}
+canvas{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+}
+canvas, #top, .top{
+  -webkit-user-select: none;
+}
+/* Menu */
+#menu {
+	background-color: #1B2833;
+	opacity: 0.8;
+	height: 6vh;
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+.menu {
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+	-webkit-user-select: auto;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+	flex: 0 1 auto;
+	padding: 10px;
+	font-size: 20px;
+}
+.title {
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+/* Skills */
+#skills {
+	background-color: #080B0F;
+	color: white;
+	height: 48vh;
+}
+#skills h1 {
+	text-align: center;
+	width: 100%;
+	padding-top: 60px;
+}
+.skills {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+	padding: 20px 60px 60px 60px;
+    justify-content: space-between;
+}
+.skills span {
+	padding: 10px;
+	max-width: 100%;
+    text-decoration: none;
+    flex: 1 0 auto;
+	word-break: break-all;
+}
+
+/* Education */
+#education {
+	background-color: #FFFFFF;
+	color: black;
+	text-align: center;
+}
+#education h1 {
+	text-align: center;
+	width: 100%;
+	padding-top: 60px;
+	color: black;
+}
+.education {
+	display: inline-block;
+	padding: 20px 60px 60px 60px;
+	margin: auto;
+}
+.education-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.education-item img {
+	width: 200px;
+}
+.education-item-data {
+	margin-left: 20px;
+	text-align: left;
+}
+
+/* Games */
+#games {
+	background-color: #6494BF;
+}
+
+/* Websites */
+#websites {
+	background-color: #7370C8;
+}
+
+/* Softwares */
+#softwares {
+	background-color: #FFE07C;
+}
+
+/* Designs */
+#designs {
+	background-color: #FFC97C;
+}
+
+/* Diy */
+#diy {
+	background-color: #60C49E;
+}
+
+/* Music */
+#music {
+	background-color: #EE7495;
+}
+
+/* Photography */
+#photography {
+	background-color: #69D870;
+}
+
+/* Photography */
+#skateboarding {
+	background-color: #BC9C7F;
+}
+
+/* Project */
+.project_section img {
+	width: 200px;
+}
+.project_section h1 {
+	font-size: 100px;
+}
+.projects {
+	background-color: white;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 60px;
+}
+.projects h1 {
+	font-size: 100px;
+}
+.images {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+.images img {
+	max-width: 400px;
+	padding: 1px;
+}
+.images video {
+	max-width: 400px;
+	padding: 1px;
+}
+.images iframe {
+	padding: 1px;
+}
+
+/* Footer */
+footer {
+	padding: 60px;
+	text-align:center;
+	background-color: #080B0F;
+	color: white;
+}
+footer a{
+	color: #436380;
+	font-weight: 500;
+	text-decoration: none;
+}
