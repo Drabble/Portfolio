@@ -1,6 +1,53 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Coat hanger (2021)</h3>
+      <p>I've made a 2 coat hangers, one for myself and one .</p>
+      <div class="columns">
+        <img class="item" src="projects/CoatHanger/1.jpg" />
+        <img class="item" src="projects/CoatHanger/2.jpg" />
+        <img class="item" src="projects/CoatHanger/3.jpg" />
+        <img class="item" src="projects/CoatHanger/4.jpg" />
+        <iframe
+          class="item"
+          src="https://www.youtube.com/embed/KzRUDMdQb0E"
+          style="height: 400px"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="project">
+      <h3>Bench (2021)</h3>
+      <p>I made a little 2 place bench out of woods, screws and a little linseed oil for my balcony.</p>
+      <div class="columns">
+        <img class="item" src="projects/Bench/1.jpg" />
+        <img class="item" src="projects/Bench/2.jpg" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Shelf (2021)</h3>
+      <p>I made a shelf for my kitchen how of two boards.</p>
+      <div class="columns">
+        <img class="item" src="projects/Shelf/1.jpg" />
+        <img class="item" src="projects/Shelf/2.jpg" />
+        <img class="item" src="projects/Shelf/3.jpg" />
+        <img class="item" src="projects/Shelf/4.jpg" />
+        <img class="item" src="projects/Shelf/7.jpg" />
+        <img class="item" src="projects/Shelf/8.jpg" />
+        <img class="item" src="projects/Shelf/5.jpg" />
+        <img class="item" src="projects/Shelf/6.jpg" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Apartment remodel (2021)</h3>
+      <p>I remodeled my apartment, most of the work was in a kitchen.</p>
+      <div class="columns">
+        <img class="item" src="projects/Apartment/1.jpg" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Carcassone (2020)</h3>
       <p>Making the carcassone game out of some scrap wood.</p>
       <div class="columns">

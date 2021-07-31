@@ -1,6 +1,19 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Recordings 2021 (2020)</h3>
+      <div class="columns">
+        <audio class="item" controls>
+          <source src="music/2021/GoodTimes.mpeg" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <audio class="item" controls>
+          <source src="music/2021/FeelinTheBlues.mpeg" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      </div>
+    <div class="project">
       <h3>Recordings (2020)</h3>
       <p>Random stuff recorded in 2020.</p>
       <div class="columns">

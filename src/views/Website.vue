@@ -1,6 +1,29 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Shlong (2021)</h3>
+      <p>
+        <a href="https://shlong.drabble.ch">https://shlong.drabble.ch</a> is a dumb website for long/shorting Bitcoin
+        I made to have a challenge with friends. 
+      </p>
+      <div class="columns">
+        <img class="item" src="projects/Shlong/1.jpg" />
+        <img class="item" src="projects/Shlong/2.jpg" />
+        <img class="item" src="projects/Shlong/3.jpg" />
+        <img class="item" src="projects/Shlong/4.jpg" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Modular Audio (2020)</h3>
+      <p>
+        Starting to work on a modular synth webapp. WIP...
+      </p>
+      <div class="columns">
+        <img class="item" src="projects/ModularAudio/1.png" />
+        <img class="item" src="projects/ModularAudio/2.png" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Yadlo (2020)</h3>
       <p>
         <a href="https://yadlo.ch">https://yadlo.ch</a> is the website I manage
@@ -19,6 +42,34 @@
       <div class="columns">
         <img class="item" src="projects/ModularAudio/1.png" />
         <img class="item" src="projects/ModularAudio/2.png" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>Portail (2021)</h3>
+      <p>
+        This is a project I made for the CIIP. Portail is a platform used to access 
+        many services, such as numerical resources, study plans, teaching mediums... and 
+        for teachers to manage their courses and share data.
+      </p>
+      <div class="columns">
+      </div>
+    </div>
+    <div class="project">
+      <h3>Support (2020)</h3>
+      <p>
+        This is a project I made for the CIIP. Support is a ticketing app for the CIIP 
+        and its users.
+      </p>
+      <div class="columns">
+      </div>
+    </div>
+    <div class="project">
+      <h3>Plan d'études (2020)</h3>
+      <p>
+        This is a project I made for the CIIP. Plan d'études contains most of the data
+        relating to learning objectives for the different branches in the Swiss education system.
+      </p>
+      <div class="columns">
       </div>
     </div>
     <div class="project">
