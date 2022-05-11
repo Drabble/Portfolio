@@ -62,7 +62,7 @@
     <router-view />
     <div class="footer">
       Made by
-      <a href="https://github.com/drabble">Antoine Drabble</a> - 2020
+      <a href="https://github.com/drabble">Antoine Drabble</a> - 2022
     </div>
   </div>
 </template>

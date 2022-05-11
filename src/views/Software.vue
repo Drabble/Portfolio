@@ -1,6 +1,37 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Maplibre-rs (2022)</h3>
+      <p>
+        Maplibre-rs is a new map renderer written in Rust. It is very similar to my project below but it is a little bit more advanced.
+        I have started participating in this project recently. Starting with small contributions.
+    <br/>        <a href="https://github.com/maplibre/maplibre-rs">Github</a>
+
+     </p>
+      <div class="columns">
+        <img class="item" src="projects/Maplibre-rs/1.svg" />
+      </div>
+    </div>
+    <div class="project">
+      <h3>WebGPU portable map renderer in Rust (2021)</h3>
+      <p>
+        The current state-of-the-art for map rendering requires applications to be written multiple times for multiple target platforms. Usually
+one in javascript for the web and one for desktop and mobile. It makes maintenance and evolution more difficult and time consuming.<br/>
+WebGPU is a 3D low-overhead API that runs on top
+of low-level APIs and gives the developer access to the GPU. Depending on the platform DirectX, Metal, Vulkan or OpenGL are
+used to render 2D and 3D graphics. It is developed by the W3C
+GPU for the Web Community Group with engineers from Apple,
+Microsoft, Mozilla, Google, and others. It is considered the successor of WebGL version 2. Contrary to WebGL version 1 and
+WebGL version 2, which were solely designed for the Web, WebGPU implements a standard header file (webgpu.h) that makes
+it cross-platform.<br/>
+Using this technology, I created a prototype for a map renderer that fetches Mapbox Vector Tiles from a server,
+it will then compute a tessellation using Lyon, finally it will render the tessellation using the GPU to display it on a screen.
+It works on all platforms, including mobile and web.       </p>
+      <div class="columns">
+        <img class="item" src="projects/Webgpu-rs/1.png" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Homies (2020)</h3>
       <p>
         This app was created with React, Ionic and Firestore. The goal is to

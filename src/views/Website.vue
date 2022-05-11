@@ -1,6 +1,19 @@
 <template>
   <div class="content">
     <div class="project">
+      <h3>Playify (2022)</h3>
+      <p>
+       Prototype for an app that helps you learn guitar. It makes use of
+       a WASM Rust library that computes the FFT with harmonic product spectrum.
+       Another part of the code generates and dynamically updates a SVG
+       guitar tabs. 
+      </p>
+      <div class="columns">
+        <img class="item" src="projects/Playify/1.png" />
+        <img class="item" src="projects/Playify/2.png" />
+      </div>
+    </div>
+    <div class="project">
       <h3>Shlong (2021)</h3>
       <p>
         <a href="https://shlong.drabble.ch">https://shlong.drabble.ch</a> is a dumb website for long/shorting Bitcoin

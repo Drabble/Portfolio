@@ -8,11 +8,12 @@
         <h1>ANTOINE</h1>
         <h1>DRABBLE</h1>
         <h2>SOFTWARE ENGINEER</h2>
+        <p>Master's degree</p>
       </div>
       <div class="info">
         <div>
           <i class="fas fa-map-pin"></i>
-          Echandens, Switzerland
+          Lausanne, Switzerland
         </div>
         <div>
           <i class="fas fa-envelope"></i>
@@ -29,6 +30,16 @@
           >
         </div>
         <div>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/Drabble">https://github.com/Drabble</a>
+        </div>
+        <div>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/antoine-drabble/"
+            >https://www.linkedin.com/in/antoine-drabble/</a
+          >
+        </div>
+        <div>
           <i class="fas fa-globe"></i>
           Swiss & Australian
         </div>
@@ -39,97 +50,93 @@
       </div>
     </div>
     <div class="content">
-      <h3 class="text-center">
+      <h2>Career</h2>
+<div class="mb-4">
+<p><b>IICT (Institute of Information & Communication Technology at HEIG-VD)</b> 2019 - now<br/>
+Software Engineer. Work on multiple projects including full-stack web development for the educational and the medical industries, 3d cartography research, devops, video streaming and more.</p>
+<p><b>Yadlo (Non-profit Organisation)</b> 2018 - now<br/>Web development and IT. Yadlo is a non-profit association that organises a small festival in Préverenges.</p>
+<p><b>HEIG-VD (University of Applied Sciences Western Switzerland)</b> 2014 - 2019<br/>Master and Bachelor degrees in Software Engineering.</p>
+<p><b>Kudelski Group (Nagravision)</b> 2010 - 2014<br/>
+Federal VET Diploma and Federal Vocational Baccalaureate in computer science.</p>
+
+<h2>Highlights</h2><div class="mb-4">
+<p><b>Over 100 programming projects since 2010 </b><br/>
+I have always been passionate about software development, and I have always kept on working on small side projects, from web development, to game development to machine learning. I am interested in every single aspect of software engineering and I am always willing to learn new technologies.</p>
+<p><b>Over 15 programming languages</b> <br/>
+I have been working mainly with Java, Javascript, Python, Rust, C++ and C# but also with Scala, PHP, Perl, Haskell, Prolog, Kotlin, Go, ASM, VBA, Bash…</p>
+<p><b>Wide full-stack web development experience</b> <br/>
+I have done a lot of projects over the years using mainstream frameworks such as React, Vue, Angular, Spring, Express, Symfony, Django…</p>
+<p><b>Devops experience </b><br/>
+Through my work at the IICT, I have worked on the automation of the development process through continuous deployment and monitoring. Using tools such as Ansible, Prometheus, Jenkins, Terraform, Vault, etc.</p>
+<p><b>Mobile and desktop software development experience </b><br/>
+I have done a few native projects on Android and some others with cross-platform technologies such as QT or JavaFX.</p>
+<p><b>Big data experience </b><br/>
+I have used multiple cloud providers such as AWS, Google Cloud, Exoscale, Cloud foundry or OpenStack. I have used big data tools such as ElasticSearch, MongoDB, Firebase, Spark, Hadoop, Docker… I am looking forward to learning more about Kubernetes.</p>
+<p><b>Machine learning experience</b> <br/>
+I have learnt a lot about machine learning in my studies. It made me very curious about deep learning networks and I have experimented through various projects with Tensorflow and Keras.</p>
+<p><b>Blockchain development experience</b> <br/>
+I have been interested in blockchain technologies in recent years. I have learnt a lot about Proof of Work and Proof of Stake, IPFS, Solidity... As a challenge I have developed smart contracts on the Ethereum and Polygon blockchains.</p>
+<p><b>3D graphics experience </b><br/>
+I have done a lot of video game development in Unity with a close friend of mine, with whom I have participated in a few game jams. I have mainly worked in C# with Unity but I have also used frameworks such as WebGPU or OpenGL for some projects.</p>
+</div>
+</div>
+      <h2>
         <b>Skills</b>
-      </h3>
+      </h2><div class="mb-4">
       <div class="skills">
-        <span data-aos="flip-down">HTML</span>
-        <span data-aos="flip-down">CSS</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Java</span>
-        <span data-aos="flip-down">Javascript</span>
-        <span data-aos="flip-down">NoSQL(MongoDB)</span>
-        <span data-aos="flip-down">PHP</span>
-        <span data-aos="flip-down">C,C++,C#</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Python</span>
-        <span data-aos="flip-down">Perl</span>
-        <span data-aos="flip-down">SQL(SQLite, Oracle, Mysql)</span>
-        <span data-aos="flip-down">VBA</span>
-        <span data-aos="flip-down">Bash</span>
-        <span data-aos="flip-down">ASM</span>
-        <span data-aos="flip-down">Haskell</span>
-        <span data-aos="flip-down">Prolog</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Scala</span>
-        <span data-aos="flip-down">ScalaJS</span>
-        <span data-aos="flip-down">AJAX</span>
-        <span data-aos="flip-down">Jquery</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Spring</span>
-        <span data-aos="flip-down">Java EE</span>
-        <span data-aos="flip-down">Node.js</span>
-        <span data-aos="flip-down">Express.js</span>
-        <span data-aos="flip-down">Arduino</span>
-        <span data-aos="flip-down">Symfony 2</span>
-        <span data-aos="flip-down">Swing</span>
-        <span data-aos="flip-down">OpenGL</span>
-        <span data-aos="flip-down">Java FX</span>
-        <span data-aos="flip-down">Maven</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Android</span>
-        <span data-aos="flip-down">Bootstrap</span>
-        <span data-aos="flip-down">Docker</span>
-        <span data-aos="flip-down">Swagger</span>
-        <span data-aos="flip-down">Jupyter</span>
-        <span data-aos="flip-down">QT</span>
-        <span data-aos="flip-down">Socket.io</span>
-        <span data-aos="flip-down">Grunt/Webpack/Gulp</span>
-        <span data-aos="flip-down">Angular1</span>
-        <span data-aos="flip-down">Angular2</span>
-        <span data-aos="flip-down">Hibernate</span>
-        <span data-aos="flip-down">Cucumber</span>
-        <span data-aos="flip-down">Mocha/Chai</span>
-        <span data-aos="flip-down">D3</span>
-        <span data-aos="flip-down">ElasticSearch</span>
-        <span data-aos="flip-down">Cherrypy</span>
-        <span data-aos="flip-down">AWS</span>
-        <span data-aos="flip-down">Wordpress</span>
-        <span data-aos="flip-down">Google Cloud</span>
-        <span data-aos="flip-down">Google App Engine</span>
-        <span data-aos="flip-down">OpenStack</span>
-        <span data-aos="flip-down">Kurbernetes</span>
-        <span data-aos="flip-down">Cloud Foundry</span>
-        <span data-aos="flip-down">Metaheuristics</span>
-        <span data-aos="flip-down">Computation Geometry</span>
-        <span data-aos="flip-down">Java EE</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;"
-          >Machine Learning</span
+        <span data-aos="flip-down">Software Development</span>
+        <span data-aos="flip-down">Full-Stack Development</span>
+        <span data-aos="flip-down">Machine Learning</span>
+        <span data-aos="flip-down">DevOps</span>
+        <span data-aos="flip-down">Big Data</span>
+        <span data-aos="flip-down">Open-Source Development</span>
+        <span data-aos="flip-down">Blockchain</span>
+        <span data-aos="flip-down">Smart Contracts</span>
+        <span data-aos="flip-down">3D Graphics</span>
+        <span data-aos="flip-down" 
+          >Rust (Programming Language)</span
         >
-        <span data-aos="flip-down">Tensor Flow</span>
+        <span data-aos="flip-down" >Java</span>
+        <span data-aos="flip-down">C++</span>
+        <span data-aos="flip-down">Python</span>
+        <span data-aos="flip-down">JavaScript</span>
+        <span data-aos="flip-down">C</span>
+        <span data-aos="flip-down">C#</span>
+        <span data-aos="flip-down">Scala</span>
+        <span data-aos="flip-down">PHP</span>
+        <span data-aos="flip-down">SQL</span>
+        <span data-aos="flip-down">NoSQL</span>
+        <span data-aos="flip-down">MongoDB</span>
+        <span data-aos="flip-down">HTML</span>
+        <span data-aos="flip-down">Amazon Web Services (AWS)</span>
+        <span data-aos="flip-down">Google App Engine</span>
+        <span data-aos="flip-down">Docker</span>
+        <span data-aos="flip-down">Git</span>
         <span data-aos="flip-down">Django</span>
-        <span data-aos="flip-down">Django REST Framework</span>
-        <span data-aos="flip-down">Photoshop</span>
-        <span data-aos="flip-down">Linux, Windows</span>
-        <span data-aos="flip-down">Illustrator</span>
-        <span data-aos="flip-down">Premiere</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Ableton</span>
+        <span data-aos="flip-down">Spring Boot</span>
+        <span data-aos="flip-down">Play Framework</span>
+        <span data-aos="flip-down">AngularJS</span>
+        <span data-aos="flip-down">Express.js</span>
+        <span data-aos="flip-down">Vue.js</span>
+        <span data-aos="flip-down">Node.js</span>
+        <span data-aos="flip-down" >React.js</span>
+        <span data-aos="flip-down">Symfony Framework</span>
+        <span data-aos="flip-down">Spring Framework</span>
+        <span data-aos="flip-down">Android Development</span>
+        <span data-aos="flip-down">Kubernetes</span>
+        <span data-aos="flip-down">Apache Spark</span>
+        <span data-aos="flip-down">Adobe IllustratorPhotoshop</span>
+        <span data-aos="flip-down">Ableton</span>
+        <span data-aos="flip-down">Java Enterprise Edition</span>
         <span data-aos="flip-down">Blender</span>
+        <span data-aos="flip-down">Unity</span>
         <span data-aos="flip-down">Unreal Engine 4</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">Unity 5</span>
-        <span data-aos="flip-down">Spark</span>
-        <span data-aos="flip-down">Mllib</span>
-        <span data-aos="flip-down">Solr</span>
-        <span data-aos="flip-down">Hadoop</span>
-        <span data-aos="flip-down">RapidMiner</span>
-        <span data-aos="flip-down">OpenMP</span>
-        <span data-aos="flip-down">UML</span>
-        <span data-aos="flip-down">SysML</span>
-        <span data-aos="flip-down">Scrum</span>
-        <span data-aos="flip-down">XP</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">React</span>
-        <span data-aos="flip-down" style="color: #bc9c7f;">VueJS</span>
-        <span data-aos="flip-down">Ionic</span>
-        <span data-aos="flip-down">Firebase</span>
+      </div>
       </div>
     </div>
-
+<!--
     <div class="content row">
+
       <div class="col-md-6 mb-5">
         <h3 class="text-center">
           <b>Experience</b>
@@ -253,7 +260,7 @@
           </div>
         </a>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -269,14 +276,12 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
+  align-items: start;
+  justify-content: start;
 
   span {
-    padding: 10px;
-    max-width: 100%;
+    padding: 5px;
     text-decoration: none;
-    flex: 1 0 auto;
     word-break: break-all;
   }
 }
