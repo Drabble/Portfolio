@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Lauranne <3</title>
+      <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	  <link rel="stylesheet" href="flipclock.css">
+		<script src="flipclock.min.js"></script>
+      <style>
+         .ui-widget-header {
+            background: #cedc98;
+            border: 1px solid #DDDDDD;
+            color: #333333;
+            font-weight: bold;
+         }
+      </style>
+     
+	  
+   </head>
+   <body>
+   <br/><br/><br/>
+		<div style="margin:auto;width: 800px;">
+		<div class="clock" style="margin:2em;"></div>
+		<div id="progressbar-1"></div> 
+		</div>
+		
+   </body>
+    <script>
+		var clock;
+         $(function() {
+			var d = new Date();
+			
+			var d1 = new Date(2014,10,14);
+			var d2 = new Date(2015,3,9);
+
+			var dif = d2.getTime() - d1.getTime()
+			var Seconds_from_T1_to_T2_1 = dif / 1000;
+			var Seconds_Between_Dates_1 = Math.abs(Seconds_from_T1_to_T2_1);
+			
+			var dif = d2.getTime() - d.getTime()
+			var Seconds_from_T1_to_T2_2 = dif / 1000;
+			var Seconds_Between_Dates_2 = Math.abs(Seconds_from_T1_to_T2_2);
+			var totalPercent = 100 - Seconds_from_T1_to_T2_2/Seconds_from_T1_to_T2_1 * 100; 
+			
+            $( "#progressbar-1" ).progressbar({
+               value: totalPercent
+            });
+			$( "#progressbar-1" ).before("<div id=\"percent\">Progression : " + totalPercent.toFixed(5) + "%" + "</div><br/>");
+			
+			setInterval(function () {
+				var d = new Date();
+				
+				var d1 = new Date(2014,10,14);
+				var d2 = new Date(2015,3,9);
+
+				var dif = d2.getTime() - d1.getTime()
+				var Seconds_from_T1_to_T2_1 = dif / 1000;
+				var Seconds_Between_Dates_1 = Math.abs(Seconds_from_T1_to_T2_1);
+				
+				var dif = d2.getTime() - d.getTime()
+				var Seconds_from_T1_to_T2_2 = dif / 1000;
+				var Seconds_Between_Dates_2 = Math.abs(Seconds_from_T1_to_T2_2);
+				var totalPercent = 100 - Seconds_from_T1_to_T2_2/Seconds_from_T1_to_T2_1 * 100; 
+				$("#percent").text("Progression : " + totalPercent.toFixed(5) + "%");
+			}, 100);
+			
+			// Calculate the difference in seconds between the future and current date
+			var diff = d2.getTime() / 1000 - d.getTime() / 1000;
+
+			// Instantiate a coutdown FlipClock
+			clock = $('.clock').FlipClock(diff, {
+				clockFace: 'DailyCounter',
+				countdown: true,
+				showSeconds: true
+			});
+         });
+      </script>
+</html>
